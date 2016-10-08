@@ -48,6 +48,8 @@ def train():
 #   service.index(corpus)
 #   return 'model indexed with whole corpus'
 
+if __name__ == '__main__':
+  app.run(debug=True,host='0.0.0.0')
 
 
 
