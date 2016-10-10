@@ -1,4 +1,4 @@
-FROM python:2.7.12
+FROM tiangolo/uwsgi-nginx-flask
 
 RUN pip install -U Flask numpy scipy gensim ez_setup setuptools simserver sqlitedict
 ADD . .

@@ -17,6 +17,10 @@ service = SessionServer('/tmp/mirFlickr4500')
 
 # FORMAT FOR DATA POSTED TO /index: {"id":NUMBER,"tokens":["STRING","STRING","STRING"]}
 
+@app.route('/test', methods=['GET'])
+def test():
+  return "server is running"
+
 @app.route('/index', methods=['POST'])
 def indexPhoto():
   print(request.json)
@@ -49,7 +53,7 @@ def train():
 #   return 'model indexed with whole corpus'
 
 if __name__ == '__main__':
-  app.run(debug=True,host='0.0.0.0')
+  app.run(host='0.0.0.0', port=5000)
 
 
 
