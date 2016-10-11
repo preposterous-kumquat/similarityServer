@@ -1,0 +1,8 @@
+Flask 
+numpy 
+scipy 
+gensim 
+ez_setup 
+setuptools 
+simserver 
+sqlitedict
