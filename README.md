@@ -1,15 +1,13 @@
-# [Lensity](https://github.com/preposterous-kumquat/preposterous-kumquat)
-Main Repo:
-> Similarity Server
-> Machine Learning micro-service to return similarity matched photos
+# Similarity Server
+
+Machine Learning micro-service to return similarity matched photos.
+[Lensity Repo](https://github.com/preposterous-kumquat/preposterous-kumquat)
 
 ## Team
 
   - __Product Owner__: [Josphine Eng](https://github.com/ChirpingMermaid)
   - __Scrum Master__: [Julie Truong](https://github.com/Truong-Julie)
   - __Development Team Members__: [Brian Kilrain](https://github.com/bkilrain)
-
-# Similarity Server
 
 ## Table of Contents
 
