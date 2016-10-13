@@ -9,7 +9,7 @@ Main Repo:
   - __Scrum Master__: [Julie Truong](https://github.com/Truong-Julie)
   - __Development Team Members__: [Brian Kilrain](https://github.com/bkilrain)
 
-# similarityServer
+# Similarity Server
 
 ## Table of Contents
 
