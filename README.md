@@ -34,7 +34,7 @@ docker build -t simserver:01 .
 ### Training Corpus
 Once Docker compose is running:
 - Use Postman to send POST request to
-```sh http://0.0.0.0:5000/train ```
+``` http://0.0.0.0:5000/train ```
 
 ## Contributing
 
