@@ -32,7 +32,7 @@ In root folder run:
 docker build -t simserver:01 .
 ```
 ### Training Corpus
-Once Docker comopose is running:
+Once Docker compose is running:
 - Use Postman to send POST request to
 ```sh http://0.0.0.0:5000/train ```
 
