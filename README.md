@@ -17,7 +17,6 @@ Main Repo:
 1. [Docker Development](#docker-development)
     1. [Build Image](#build-image)
     1. [Train Corpus](#train-corpus)
-    
 1. [Contributing](#contributing)
 
 ## Docker Development
