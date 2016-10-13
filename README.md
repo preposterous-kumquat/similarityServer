@@ -1,10 +1,7 @@
-# Lensity
-
+# [Lensity](https://github.com/preposterous-kumquat/preposterous-kumquat)
+Main Repo:
 > Similarity Server
 > Machine Learning micro-service to return similarity matched photos
-
-Main Repo:
-  - [Lensity](https://github.com/preposterous-kumquat/preposterous-kumquat)
 
 ## Team
 
