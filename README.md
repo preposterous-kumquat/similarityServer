@@ -1,6 +1,6 @@
 # Similarity Server
 
-Machine Learning micro-service to return similarity matched photos.
+Gensim Machine Learning simserver implementation in Python for the purpose of matching words according to keyword.
 [Lensity Repo](https://github.com/preposterous-kumquat/preposterous-kumquat)
 
 ## Team
@@ -25,7 +25,16 @@ In root folder run:
 ```sh
 docker build -t simserver:01 .
 ```
-### Training Corpus
+
+### Create Training Corpus
+- Upload training photos to S3
+ * naming convention: http://url.com/path/to/photo/im1342.jpg... im1343.jpg... im1344.jpg
+- In curator/routes.js -> set training counter to first image file number (line 16)
+- Uncomment volume to trainingCorpus.json in yml file
+- Send POST request to main-web-server/kickoffTraining with postman
+- Copy and paste data in trainingCorpus.json in curator to trainingCorpus.json in simserver
+
+### Training
 Once Docker compose is running:
 - Use Postman to send POST request to
 ``` http://0.0.0.0:5000/train ```

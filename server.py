@@ -13,7 +13,7 @@ from gensim import utils
 
 from simserver import SessionServer
 #BEFORE TRAINING NEW MODEL - CHANGE PATH BELOW
-service = SessionServer('/tmp/mirFlickr4500')
+service = SessionServer('/tmp/mirFlickr9500')
 
 # FORMAT FOR DATA POSTED TO /index: {"id":NUMBER,"tokens":["STRING","STRING","STRING"]}
 
